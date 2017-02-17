@@ -1,0 +1,381 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fee2b2;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#top{
+    height: 0px;
+    z-index: 4;
+    position: relative;
+}
+
+.manu{
+    height: 46px;
+    z-index: 5;
+    position: relative;
+}
+
+.manu_container{
+    width: 900px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+#logo{
+    height: 50px;
+    width: 75px;
+    position: relative;
+    float: left;
+    margin-left: 35px;
+}
+
+ul{
+    width: 830px;
+    height: 47px;
+    position: relative;
+    top: 18px;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    font-size: 19px;
+    margin-left: 75px;
+}
+
+a{
+    color: #e89606;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: #fee2b2;
+    cursor: pointer;
+}
+
+.content{
+    height: 513px;
+    background-color: #fee2b2;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 20px;
+    position: relative;
+}
+
+/*-----------Begining of home page----------*/
+
+.image_slider{
+    width: 990px;
+    height: 350px;
+    margin: 0px auto;
+    border: 2px solid #4b230a;
+    border-radius: 5px;
+    background-color: red;
+    background-image: url(../img/wall%20one.jpg);
+}
+
+.left{
+    width: 40px;
+    height: 40px;
+    background-color: #e89606;
+    margin-top: 300px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.fa{
+    margin-top: 8px;
+    color: whitesmoke;
+}
+.right{
+    width: 40px;
+    height: 40px;
+    background-color: #e89606;
+    margin-top: 300px;
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.heading{
+    width: 990px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.h2{
+    margin: 20px auto;
+    width: 275px;
+    color: #4b230a;
+}
+
+.welcome_text{
+    width: 720px;
+    margin: 0px auto;
+    font-size: 18px;
+    color: #4b230a;
+}
+
+.circle_container{
+    width: 930px;
+    height: 280px;
+    margin: 0px auto;
+    margin-top: 25px;
+    
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 250px;
+    float: left;
+    background-image: url(../img/size.jpg);
+}
+
+.info{
+    width: 930px;
+    height: 100px;
+    margin: -30px auto;
+}
+
+.box{
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.h3{
+    color: #4b230a;
+}
+
+/*----------------Contacts-----------------*/
+
+.contact_container{
+    width: 1210px;
+    height: 450px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+
+.map{
+    width: 700px;
+    height: 350px;
+    float: left;
+}
+
+.map_header{
+    color: #4b230a;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.map_container{
+    width: 700px;
+    height: 320;
+    background-color: white;
+}
+
+
+.form_header{
+    color: #4b230a;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.form{
+    width: 450px;
+    height: 400px;
+    float: right;
+}
+
+.form_header{
+    color: #4b230a;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.feedback{
+    width: 350px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #e89606;
+    border: none;
+}
+
+textarea{
+    width: 350px;
+    height: 170px;
+    margin-left: 50px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #e89606;
+    border: none;
+}
+
+button{
+    width: 180px;
+    height: 35px;
+    margin-left: 220px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #e89606;
+    color: white;
+    border: none;
+}
+
+.social_networks{
+    width: 700px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    margin: -52px -760px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.fa-facebook-official{
+    margin: 0px;
+    text-align: center;
+    color: red;
+    width: ;
+}
+
+/*------------Begining of Menu---------------*/
+.about_logo{
+    width: 700px;
+    height: 350px;
+    float: left;
+    background-color: red;
+}
+
+.menu_container{
+    width: 1210px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.menu-logo{
+    width: 150px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.picture_products{
+    width: 150px;
+    height: 100px;
+}
+
+.products_container{
+    width: 1000px;
+    height: 450px;
+    margin: 0px auto;
+}
+
+.product_image{
+    background-color: ;
+    width: 250px;
+    height: 180px;
+    float: left;
+    margin-left: 62px;
+    margin-top: 20px;
+   
+}
+
+.details_box{
+    width: 250px;
+    height: 80px;
+    float: left;
+    margin-left: 62px;
+    border-radius: 5px;
+}
+
+.detail_header{
+    width: 250px;
+    height: 30px;
+}
+
+.detaild_info{
+    width: 250px;
+    height: 65px;
+    font-size: 13px;
+    margin-top: -20px;
+    overflow-y: hidden;
+    margin-left: 5px;
+}
+
+.product_heading{
+    color: ;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.product_profile{
+    width: 250px;
+    height: 180px;
+    background: linear-gradient(white  , rgba(224, 223, 223, 0.76) 100px);
+}
+
+
+.short_info{
+    color: #4b230a;
+}
+
+.bottom{
+    height: 5px;
+    position: relative;
+}
+
+.copy_rights{
+    height: 10px;
+    width: 260px;
+    position: absolute;
+    z-index: 4;
+    color: #fee2b2;
+    margin: 38px 543px;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+    #logo {
+        height: 40px;
+        width: 65px;
+        position: relative;
+        float: left;
+        margin-left: 35px;
+        top: 20px;
+    }
+    
+}
+
